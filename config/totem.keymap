@@ -53,7 +53,14 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <2 3>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";

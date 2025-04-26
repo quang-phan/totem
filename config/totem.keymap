@@ -60,6 +60,11 @@
             bindings = <&kp ENTER>;
             key-positions = <2 3>;
         };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <12 13>;
+        };
     };
 
     keymap {

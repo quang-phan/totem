@@ -82,6 +82,46 @@
             bindings = <&kp LC(V)>;
             key-positions = <23 24>;
         };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <11 12>;
+        };
+
+        hash {
+            bindings = <&kp HASH>;
+            key-positions = <2 12>;
+        };
+
+        backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <23 12>;
+        };
+
+        dollar {
+            bindings = <&kp DOLLAR>;
+            key-positions = <3 13>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <13 24>;
+        };
+
+        percent {
+            bindings = <&kp PERCENT>;
+            key-positions = <4 14>;
+        };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <25 14>;
+        };
+
+        excl {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <0 10>;
+        };
     };
 
     keymap {

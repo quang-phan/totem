@@ -216,12 +216,12 @@
 
         pipe {
             bindings = <&kp PIPE>;
-            key-positions = <29 18>;
+            key-positions = <17 28>;
         };
 
         question {
             bindings = <&kp QUESTION>;
-            key-positions = <19 30>;
+            key-positions = <18 29>;
         };
     };
 

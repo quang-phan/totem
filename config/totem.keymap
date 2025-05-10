@@ -48,6 +48,42 @@
             global-quick-tap;
             bindings = <&kp>, <&kp>;
         };
+
+        lpar_lt: lpar_lt {
+            compatible = "zmk,behavior-mod-morph";
+            label = "LPAR_LT";
+            bindings = <&kp LEFT_PARENTHESIS>, <&kp LESS_THAN>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+
+        rpar_gt: rpar_gt {
+            compatible = "zmk,behavior-mod-morph";
+            label = "RPAR_GT";
+            bindings = <&kp RPAR>, <&kp GT>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+
+        lb_lb: lb_lb {
+            compatible = "zmk,behavior-mod-morph";
+            label = "LB_LB";
+            bindings = <&kp LEFT_BRACKET>, <&kp LEFT_BRACE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+
+        rb_rb: rb_rb {
+            compatible = "zmk,behavior-mod-morph";
+            label = "RB_RB";
+            bindings = <&kp RIGHT_BRACKET>, <&kp RIGHT_BRACE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
     };
 
     combos {
@@ -121,6 +157,71 @@
         excl {
             bindings = <&kp EXCLAMATION>;
             key-positions = <0 10>;
+        };
+
+        caret {
+            bindings = <&kp CARET>;
+            key-positions = <5 15>;
+        };
+
+        and {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <6 16>;
+        };
+
+        star {
+            bindings = <&kp ASTERISK>;
+            key-positions = <7 17>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <8 18>;
+        };
+
+        dq {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <9 19>;
+        };
+
+        under {
+            bindings = <&kp UNDER>;
+            key-positions = <15 26>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <27 16>;
+        };
+
+        a {
+            bindings = <&lpar_lt>;
+            key-positions = <16 17>;
+        };
+
+        b {
+            bindings = <&rpar_gt>;
+            key-positions = <17 18>;
+        };
+
+        c {
+            bindings = <&lb_lb>;
+            key-positions = <27 28>;
+        };
+
+        d {
+            bindings = <&rb_rb>;
+            key-positions = <28 29>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <29 18>;
+        };
+
+        question {
+            bindings = <&kp QUESTION>;
+            key-positions = <19 30>;
         };
     };
 

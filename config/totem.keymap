@@ -219,8 +219,8 @@
             key-positions = <17 28>;
         };
 
-        question {
-            bindings = <&kp QUESTION>;
+        quote {
+            bindings = <&kp SQT>;
             key-positions = <18 29>;
         };
     };

@@ -223,6 +223,11 @@
             bindings = <&kp SQT>;
             key-positions = <18 29>;
         };
+
+        cut {
+            bindings = <&kp LC(X)>;
+            key-positions = <22 21>;
+        };
     };
 
     keymap {

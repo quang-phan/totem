@@ -184,8 +184,8 @@
             key-positions = <9 19>;
         };
 
-        under {
-            bindings = <&kp UNDER>;
+        pipe {
+            bindings = <&kp PIPE>;
             key-positions = <15 26>;
         };
 
@@ -214,8 +214,8 @@
             key-positions = <28 29>;
         };
 
-        pipe {
-            bindings = <&kp PIPE>;
+        under {
+            bindings = <&kp UNDER>;
             key-positions = <17 28>;
         };
 
